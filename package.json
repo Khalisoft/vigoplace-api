@@ -5,8 +5,8 @@
    "license": "ISC",
    "scripts": {
       "build": "npx tsc",
-      "start": "ts-node src/index.ts",
-      "dev": "concurrently \"npx tsc --watch\" \"nodemon -q dist/index.js\"",
+      "start": "ts-node src/index",
+      "dev": "concurrently \"npx tsc --watch\" \"nodemon -q dist/index\"",
       "test": "echo \"Error: no test specified\" && exit 1"
    },
    "devDependencies": {
